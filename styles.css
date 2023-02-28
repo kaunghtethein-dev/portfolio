@@ -1,0 +1,139 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+    background: #FCFFE7;
+    font-family: 'Montserrat';
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Merriweather';
+}
+h3{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+p{
+    font-size: 16px;
+    
+}
+li {
+    line-height: 2;
+}
+
+hr {
+    width:5%;
+    border-top:0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 5px dotted #86A3B8;
+    opacity: 0.5;
+    margin: auto;
+}
+
+section {
+    padding: 2%;
+}
+
+td {
+    padding: 20px;
+}
+
+#intro h1,h3,p {
+    margin-top: 15px;
+}
+
+#intro p {
+    width: 60%;
+}
+
+
+
+.skill-bar {
+    border: 1px solid black;
+    width: 200px;
+    height: 10px;
+}
+
+.skill {
+    background-color: black;
+    height: 9px;
+}
+.dot-net {
+    width: 60%;
+}
+
+.node-js {
+    width: 80%;
+}
+
+.sql-server {
+    width: 60%;
+}
+
+.mysql {
+    width: 50%;
+}
+
+.cv-download{
+   border: 1px solid #4D455D;
+   border-radius: 10px;
+   padding: 5px;
+   margin-left: 10px;
+}
+
+ul {
+    margin-right: 15px;
+}
+
+.nav-link{
+    color: #4D455D;
+}
+
+@media (max-width: 767px) and (orientation: portrait) {
+    .image-container {
+        text-align: center;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    .cv-download{
+       border: none;
+       text-decoration: underline;
+     }
+ }
+
+ @media (min-width: 620px) and (max-width: 1023px) and (orientation: portrait) { 
+    .image-container {
+        text-align: center;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    .cv-download{
+       border: none;
+       text-decoration: underline;
+     }
+  }
+
+  @media (min-width: 620px) and (max-width: 1023px) and (orientation: landscape) { 
+    .image-container {
+        text-align: center;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    .cv-download{
+       border: none;
+       text-decoration: underline;
+     }
+   }
