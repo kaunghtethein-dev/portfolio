@@ -1,10 +1,17 @@
+nav {
+    background-color: #070A52;
+}
+
+nav a {
+    color: white !important;
+}
 img {
     max-width: 100%;
     height: auto;
 }
 
 body{
-    background: #FCFFE7;
+    background: white;
     font-family: 'Montserrat';
 }
 
@@ -18,18 +25,18 @@ h3{
 
 p{
     font-size: 16px;
-    
+    line-height: 2;
 }
 li {
     line-height: 2;
 }
 
 hr {
-    width:5%;
+    width:15%;
     border-top:0;
     border-left: 0;
     border-right: 0;
-    border-bottom: 5px dotted #86A3B8;
+    border-bottom: 5px dashed #86A3B8;
     opacity: 0.5;
     margin: auto;
 }
@@ -38,16 +45,22 @@ section {
     padding: 2%;
 }
 
+section#intro {
+    background-color: #070A52;
+}
+
 td {
     padding: 20px;
 }
 
 #intro h1,h3,p {
     margin-top: 15px;
+    color: #FFF3E2;
 }
 
 #intro p {
     width: 60%;
+    animation-duration: 2s;
 }
 
 
@@ -62,6 +75,16 @@ td {
     background-color: black;
     height: 9px;
 }
+
+.html {
+    width: 80%;
+}
+.css {
+    width: 60%;
+}
+.javascript{
+    width: 70%;
+}
 .dot-net {
     width: 60%;
 }
@@ -74,7 +97,7 @@ td {
     width: 60%;
 }
 
-.mysql {
+.react {
     width: 50%;
 }
 
@@ -89,15 +112,12 @@ ul {
     margin-right: 15px;
 }
 
-.nav-link{
-    color: #4D455D;
-}
 
 #contact {
     text-align: center;
     background-color: #2E3840;
-    height: 15%;
-    padding: 5%;
+    height: 5%;
+    /* padding: 5%; */
 }
 
 #contact h3{
