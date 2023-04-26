@@ -41,6 +41,7 @@ hr {
     margin: auto;
 }
 
+
 section {
     padding: 2%;
 }
@@ -48,14 +49,16 @@ section {
 section#intro {
     background-color: #070A52;
 }
-
+section#education {
+    padding: 5%;
+}
 td {
     padding: 20px;
 }
 
 #intro h1,h3,p {
     margin-top: 15px;
-    color: #FFF3E2;
+    color: white;
 }
 
 #intro p {
