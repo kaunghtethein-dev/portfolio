@@ -50,7 +50,7 @@ section#intro {
     background-color: #070A52;
 }
 section#education {
-    padding: 5%;
+    padding: 5% 0 5% 0;
 }
 td {
     padding: 20px;
